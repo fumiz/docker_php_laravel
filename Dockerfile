@@ -18,4 +18,4 @@ RUN curl -sS https://getcomposer.org/installer | php && \
 # for php artisan serve
 RUN mkdir -p /var/www/html
 WORKDIR /var/www/html
-EXPOSE 80
+EXPOSE 8000
